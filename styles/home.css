@@ -1,4 +1,9 @@
 
+/* header {
+    display: flex;
+    
+}
+
 .title {
     font-size: 48px;
     font-family: 'Poppins', Tahoma, sans-serif;
@@ -6,6 +11,29 @@
     padding-right: 24px;
     padding-top: 8px;
 }
+
+.in-line-logo {
+    width: 64px;
+    height: 64px;
+} */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+}
+
+.title {
+    font-size: 48px;
+    font-family: 'Poppins', Tahoma, sans-serif;
+    margin: 0;
+}
+
+.in-line-logo {
+    max-height: 64px; /* Puedes ajustar la altura según tus necesidades */
+}
+
 
 .cards {
     display: flex;  /* Para ponerlos uno al lado del otro */
@@ -27,6 +55,7 @@
 .card h3 {
     font-size: 18px;
     color: #0C2C9B;
+    margin-bottom: -12px;
 }
 
 .card img {
@@ -35,7 +64,7 @@
     margin: 0 auto;
 }
 
-.card :hover {
+.card:hover {
     background-color: rgb(209, 209, 209);
     cursor: pointer;
 }
