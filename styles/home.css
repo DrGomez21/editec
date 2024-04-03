@@ -24,10 +24,16 @@ header {
     padding: 10px;
 }
 
-.title {
+header .title-perfiles {
+    justify-content: center; 
+    flex: 1; 
+}
+
+.title-perfiles, .title {
     font-size: 48px;
     font-family: 'Poppins', Tahoma, sans-serif;
     margin: 0;
+    text-align: center;
 }
 
 .in-line-logo {
